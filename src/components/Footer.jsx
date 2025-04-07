@@ -1,9 +1,10 @@
+import BigLogo from "../assets/img/dc-logo-bg.png";
 function Footer() {
   return (
     <footer>
       <div className="footerList">
-        <div>
-          <div>
+        <div className="list-column">
+          <div className="list-container">
             <h3>Dc Comics</h3>
             <ul>
               <li>Carachters</li>
@@ -21,8 +22,8 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div>
-          <div>
+        <div className="list-column">
+          <div className="list-container">
             <h3>Dc</h3>
             <ul>
               <li>Terms of Use</li>
@@ -39,8 +40,8 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div>
-          <div>
+        <div className="list-column">
+          <div className="list-container">
             <h3>Sites</h3>
             <ul>
               <li>DC</li>
@@ -50,6 +51,9 @@ function Footer() {
               <li>DC Power Visa</li>
             </ul>
           </div>
+        </div>
+        <div>
+          <img src={BigLogo} alt="big-logo" />
         </div>
       </div>
     </footer>
