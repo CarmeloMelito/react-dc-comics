@@ -8,8 +8,11 @@ function FooterLink() {
   return (
     <div className="links">
       <button className="button-sign">Sign-Up Now</button>
-      <div>
-        <a href="#">Follow Us</a>
+
+      <div className="social">
+        <a href="#" className="follow">
+          Follow Us
+        </a>
         <a href="#">
           <img src={FacebookImg} alt="facebook" />
         </a>
