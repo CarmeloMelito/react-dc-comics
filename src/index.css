@@ -92,19 +92,26 @@ main {
   text-decoration: none;
   color: #0282f9;
 }
+
 /*FOOTER-BLUE*/
 .footer-blue {
   background-color: #0282f9;
   color: white;
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
   padding: 5px;
 }
 .footer-blue .element {
   display: flex;
   align-items: center;
+}
+.footer-blue .element img {
+  width: 100px;
+}
+.footer-blue .element {
   text-transform: uppercase;
   color: white;
   text-decoration: none;
+  gap: 5px;
 }
