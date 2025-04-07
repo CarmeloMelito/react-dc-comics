@@ -6,8 +6,8 @@ import PeriscopeImg from "../assets/img/footer-periscope.png";
 
 function FooterLink() {
   return (
-    <div>
-      <button>Sign Up Now</button>
+    <div className="links">
+      <button className="button-sign">Sign-Up Now</button>
       <div>
         <a href="#">Follow Us</a>
         <a href="#">
